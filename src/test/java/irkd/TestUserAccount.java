@@ -41,5 +41,23 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
+	@Test (groups = {"account", "ui", "ui-smoke"})
+	public void rejectAccountInvalidUsernameUI() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"account", "ui"})
+	public void createAccountUI() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
 	
 }

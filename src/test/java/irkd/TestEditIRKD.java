@@ -42,5 +42,23 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
+	@Test (groups = {"issue", "ui", "ui-smoke"})
+	public void rejectEditRemoveDescriptionUI() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"issue", "ui", "ui-smoke"})
+	public void acceptEditNewSummaryUI() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
 	
 }
