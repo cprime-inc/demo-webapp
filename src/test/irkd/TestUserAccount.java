@@ -1,13 +1,12 @@
-
+package irkd;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCreateIRKD {
-	
-	
-	@Test (groups = {"billing", "smoke-tests"})
-	public void testHasNerdGlasses() throws Exception {
+public class TestUserAccount {
+  
+	@Test (groups = {"account", "smoke-tests"})
+	public void rejectAccountNoUsername() throws Exception {
 		/////////////////
 		// your actual test would go here
 		/////////////////
@@ -15,8 +14,8 @@ public class TestCreateIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"batch2", "integration-tests"})
-	public void testHasNoSocialLife() throws Exception {
+	@Test (groups = {"account", "integration-tests"})
+	public void rejectAccountInvalidUsername() throws Exception {
 		/////////////////
 		// your actual test would go here
 		/////////////////
@@ -24,8 +23,8 @@ public class TestCreateIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"batch2", "integration-tests"})
-	public void testPlaysBoardGames() throws Exception {
+	@Test (groups = {"account", "smoke-tests"})
+	public void createAccount() throws Exception {
 		/////////////////
 		// your actual test would go here
 		/////////////////
@@ -33,12 +32,14 @@ public class TestCreateIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"batch1", "integration-tests"})
-	public void testBelongsToChessClub() throws Exception {
+	@Test (groups = {"account", "integration-tests"})
+	public void createAccountHyphenatedLastName() throws Exception {
 		/////////////////
 		// your actual test would go here
 		/////////////////
 		
 		Assert.assertTrue(true);
 	}
+	
+	
 }
