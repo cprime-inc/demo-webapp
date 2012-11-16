@@ -5,6 +5,33 @@ import org.testng.annotations.Test;
 
 public class TestUserAccount {
   
+	@Test (groups = {"account", "unit"})
+	public void testNoUsername() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"account", "unit"})
+	public void testInvalidUsername() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"account", "unit"})
+	public void testCreateAccount() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
 	@Test (groups = {"account", "smoke-tests"})
 	public void rejectAccountNoUsername() throws Exception {
 		/////////////////

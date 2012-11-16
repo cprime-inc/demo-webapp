@@ -6,7 +6,25 @@ import org.testng.annotations.Test;
 public class TestEditIRKD {
 	
 	
-	@Test (groups = {"issue", "smoke-tests"})
+	@Test (groups = {"issue", "unit"})
+	public void testRemoveSummary() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"issue", "unit"})
+	public void testRemoveDescription() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
+	@Test (groups = {"issue", "smoke_tests"})
 	public void rejectEditRemoveSummary() throws Exception {
 		/////////////////
 		// your actual test would go here
