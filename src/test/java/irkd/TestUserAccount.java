@@ -23,7 +23,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "smoke-tests"})
+	@Test (groups = {"account", "smoke_tests"})
 	public void createAccount() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -32,7 +32,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "integration-tests"})
+	@Test (groups = {"account", "integration_tests"})
 	public void createAccountHyphenatedLastName() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -41,7 +41,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "ui", "ui-smoke"})
+	@Test (groups = {"account", "ui", "ui_smoke"})
 	public void rejectAccountInvalidUsernameUI() throws Exception {
 		/////////////////
 		// your actual test would go here

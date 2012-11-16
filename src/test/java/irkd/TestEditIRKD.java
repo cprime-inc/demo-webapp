@@ -15,7 +15,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "integration-tests"})
+	@Test (groups = {"issue", "integration_tests"})
 	public void rejectEditRemoveDescription() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -24,7 +24,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "smoke-tests"})
+	@Test (groups = {"issue", "smoke_tests"})
 	public void acceptEditNewSummary() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -33,7 +33,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "integration-tests"})
+	@Test (groups = {"issue", "integration_tests"})
 	public void acceptEditNewDescription() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -42,7 +42,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "ui", "ui-smoke"})
+	@Test (groups = {"issue", "ui", "ui_smoke"})
 	public void rejectEditRemoveDescriptionUI() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -51,7 +51,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "ui", "ui-smoke"})
+	@Test (groups = {"issue", "ui", "ui_smoke"})
 	public void acceptEditNewSummaryUI() throws Exception {
 		/////////////////
 		// your actual test would go here
