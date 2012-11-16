@@ -60,7 +60,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "ui", "ui_smoke"})
+	@Test (groups = {"ui", "ui_smoke"})
 	public void rejectEditRemoveDescriptionUI() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -69,7 +69,7 @@ public class TestEditIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "ui", "ui_smoke"})
+	@Test (groups = {"ui", "ui_smoke"})
 	public void acceptEditNewSummaryUI() throws Exception {
 		/////////////////
 		// your actual test would go here

@@ -60,7 +60,7 @@ public class TestCreateIRKD {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"issue", "ui"})
+	@Test (groups = {"ui"})
 	public void createIRKDOnlyRequiredFeildsUI() throws Exception {
 		/////////////////
 		// your actual test would go here

@@ -32,7 +32,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "smoke-tests"})
+	@Test (groups = {"account", "smoke_tests"})
 	public void rejectAccountNoUsername() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -41,7 +41,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "integration-tests"})
+	@Test (groups = {"account", "integration_tests"})
 	public void rejectAccountInvalidUsername() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -68,7 +68,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "ui", "ui_smoke"})
+	@Test (groups = {"ui", "ui_smoke"})
 	public void rejectAccountInvalidUsernameUI() throws Exception {
 		/////////////////
 		// your actual test would go here
@@ -77,7 +77,7 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
-	@Test (groups = {"account", "ui"})
+	@Test (groups = {"ui"})
 	public void createAccountUI() throws Exception {
 		/////////////////
 		// your actual test would go here
