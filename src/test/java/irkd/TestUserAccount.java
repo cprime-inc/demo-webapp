@@ -32,6 +32,15 @@ public class TestUserAccount {
 		Assert.assertTrue(true);
 	}
 	
+	@Test (groups = {"account", "unit"})
+	public void rejectAccountMismatchedPassword() throws Exception {
+		/////////////////
+		// your actual test would go here
+		/////////////////
+		
+		Assert.assertTrue(true);
+	}
+	
 	@Test (groups = {"account", "smoke_tests"})
 	public void rejectAccountNoUsername() throws Exception {
 		/////////////////
