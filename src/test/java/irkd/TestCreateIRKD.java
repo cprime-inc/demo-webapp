@@ -23,6 +23,15 @@ public class TestCreateIRKD {
 		
 		Assert.assertTrue(true);
 	}
+
+ 	 @Test (groups = {"issue", "unit"})
+        public void testNoFixVersion() throws Exception {
+                /////////////////
+                // your actual test would go here
+                /////////////////
+
+                Assert.assertTrue(true);
+        }
 	
 	@Test (groups = {"issue", "smoke_tests"})
 	public void rejectIRKDNoSummary() throws Exception {
