@@ -12,7 +12,7 @@ public class TestCreateIRKD {
 		// your actual test would go here
 		/////////////////
 		
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	}
 	
 	@Test (groups = {"issue", "unit"})
