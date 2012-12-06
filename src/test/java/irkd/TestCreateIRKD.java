@@ -14,6 +14,15 @@ public class TestCreateIRKD {
 		
 		Assert.assertTrue(true);
 	}
+
+	@Test (groups = {"issue", "unit"})
+        public void testNoAssignee() throws Exception {
+                /////////////////
+                // your actual test would go here
+                /////////////////
+
+                Assert.assertTrue(true);
+        }
 	
 	@Test (groups = {"issue", "unit"})
 	public void testNoDescription() throws Exception {
