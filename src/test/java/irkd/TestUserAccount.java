@@ -13,6 +13,15 @@ public class TestUserAccount {
 		
 		Assert.assertTrue(true);
 	}
+
+	@Test (groups = {"account", "unit"})
+        public void testInvalidPassword() throws Exception {
+                /////////////////
+                // your actual test would go here
+                /////////////////
+
+                Assert.assertTrue(true);
+        }
 	
 	@Test (groups = {"account", "unit"})
 	public void testInvalidUsername() throws Exception {
@@ -38,6 +47,7 @@ public class TestUserAccount {
 		// your actual test would go here
 		/////////////////
 		
+
 		Assert.assertTrue(true);
 	}
 	
