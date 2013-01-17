@@ -9,7 +9,7 @@ public class TestBillingAccount {
   @BeforeMethod (alwaysRun=true)
   public void beforeMethod() {
 	  //simulate skipped tests for TestNG reporting
-	  Assert.assertTrue(true);
+	  Assert.assertTrue(false);
   }
   
  @Test(groups = "unit")
