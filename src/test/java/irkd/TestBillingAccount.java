@@ -6,11 +6,11 @@ import org.testng.annotations.BeforeMethod;
 
 public class TestBillingAccount {
 
-  @BeforeMethod (alwaysRun=true)
+/*  @BeforeMethod (alwaysRun=true)
   public void beforeMethod() {
 	  //simulate skipped tests for TestNG reporting
 	  Assert.assertTrue(false);
-  }
+  }*/
   
  @Test(groups = "unit")
   public void testCreateBillingAccount(){
@@ -18,10 +18,10 @@ public class TestBillingAccount {
 		// your actual test would go here
 		// ///////////////
 
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
   }
-  
-  @Test(groups = "unit")
+
+  @Test(groups = "unit", dependsOnMethods = { "testCreateBillingAccount" })
   public void testCreateBillingAccountRequiredFields(){
 		// ///////////////
 		// your actual test would go here
