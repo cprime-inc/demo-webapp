@@ -48,6 +48,16 @@
                     <source>1.5</source>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <webApp>
+                        <contextPath>/test</contextPath>
+                    </webApp>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     
