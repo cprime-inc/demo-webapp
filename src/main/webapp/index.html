@@ -1,682 +1,112 @@
 <!DOCTYPE html>
-<!-- saved from url=(0029)http://www.atlassian.com/irkd -->
-<html lang="en" class="wf-kulturistaweb1kulturistaweb2-n1-active wf-kulturistaweb1kulturistaweb2-i1-active wf-kulturistaweb1kulturistaweb2-n3-active wf-kulturistaweb1kulturistaweb2-i3-active wf-kulturistaweb1kulturistaweb2-n4-active wf-kulturistaweb1kulturistaweb2-i4-active wf-kulturistaweb1kulturistaweb2-n6-active wf-kulturistaweb1kulturistaweb2-i6-active wf-kulturistaweb1kulturistaweb2-n7-active wf-kulturistaweb1kulturistaweb2-i7-active wf-museoslab1museoslab2-n3-active wf-museoslab1museoslab2-i3-active wf-museoslab1museoslab2-n7-active wf-museoslab1museoslab2-i7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>IRKD - from Atlassian</title>
-        <link rel="apple-touch-icon" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/apple-touch-icon-precomposed/apple-touch-icon-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/apple-touch-icon-precomposed/apple-touch-icon-precomposed.png">
-        <link rel="icon" type="image/png" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/irkd_favicon/irkd_favicon.png">
-        <!--http://wac.29c4.edgecastcdn.net/8029C4/wac-small/--><style type="text/css">.tk-kulturista-web{font-family:"kulturista-web-1","kulturista-web-2",serif;}.tk-museo-slab{font-family:"museo-slab-1","museo-slab-2",serif;}</style><link rel="stylesheet" href="http://use.typekit.com/k/wja5xmm-d.css?3bb2a6e53c9684ffdc9a99f21f5b2a6261ae28df58f3f20c5225624f12bed48512e2cbf9faa3c5527be43ef4a5c0d64b5b510228036fa79d8d211c3c651a9159a24ec8213b1dd5435a150fe83a90e8b8a13f7a4d6df92a3b3214cf9155540692d0f792e33f01ebad77e334b9c4a5819a1eaecd93d7d248da6767cc342dbddfc9db2489d3399c014803588b8194a857499125f69eabc145a5e062901f7b8c8d482029f406655d857e17c5fac12054a61ad369db74e88930f3d86087fa6a4f5f4dd320e9fecffe3e47449e82c8f7d35e25bd48c92495943b0b7a2d3cf302fd41aa0ac7da4f528d0fff21a625c7a7d6a5f98c1da0c1106fbd7e194d4c6b0178afc675983dccdb7b64d631963cd702e65492639ee3af6fff950b91557cad5bb66f9c8255e975f8cca3065c571fdce0a747e1eb536a29e3ecbe42a848012e960a9c62509807eec9f324687aec6c60e529cb400e7e0cf5329e06c930">
- 
-      
-    </head>
-    <body data-twttr-rendered="true">
-
-    
-           
-
-
-
-
-  
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <title>IRKD - Deploy Demo</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0,maximum-scale=1.0;">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="http://www.atlassian.com/en/templating-kit-resources/wac/css/landing/irkd/bootstrap.css" rel="stylesheet">
-    <link href="http://www.atlassian.com/en/templating-kit-resources/wac/css/landing/irkd/irkd.css" rel="stylesheet">    
-    <link href="http://www.atlassian.com/en/templating-kit-resources/wac/css/landing/irkd/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <meta content="IE=EDGE" http-equiv="X-UA-Compatible">
+    <title>AUI - Prototyping Blank</title>
+    <link rel="icon" type="image/png" href="../docs/img/favicon.png"/>
+    <link rel="stylesheet" href="css/aui-all.css" media="all">
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="css/aui-ie.css" media="all"><![endif]-->
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="css/aui-ie9.css" media="all"><![endif]-->
+    <script src="aui/js/aui-all.js"></script>
+    <!--[if lt IE 9]>
+    <script src="aui/js/aui-ie.js"></script><![endif]-->
+    <!--<script src="../docs/js/aui-flatpack-extras.js"></script>-->
 
-    <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/apple-touch-icon-precomposed/apple-touch-icon-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/apple-touch-icon-precomposed/apple-touch-icon-precomposed.png">
-    <link rel="icon" type="image/png" href="http://www.atlassian.com/en/dms/wac/images/landing/irkd/irkd_favicon/irkd_favicon.png">
-    <!--http://wac.29c4.edgecastcdn.net/8029C4/wac-small/-->
-    <meta property="og:title" content="IRKD">
-    <meta property="og:type" content="product">
-    <meta property="og:url" content="http://irkd.me">
-    <meta property="og:image" content="http://wac.29c4.edgecastcdn.net/8029C4/wac-small//dms/wac/images/landing/irkd/logoIRKD.png">
-    <meta property="og:site_name" content="IRKD">
-    <meta property="fb:admins" content="827383507,13300229">
-    <meta property="og:description" content="Atlassian Presents IRKD - You use JIRA to track defects in your software. Now use IRKD to track defects in your everyday life.">
-
-
-
-
-<div class="navbar navbar-fixed-top navbar-static">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="brand" href="http://atlassian.com/">Atlassian</a>
-            <div class="socialButtonWrapper">
-               
-
-                <div class="socialButton twitter">
-                <iframe allowtransparency="true" frameborder="0" scrolling="no" src="files/tweet_button.1352365724.html" class="twitter-share-button twitter-count-horizontal" style="width: 107px; height: 20px; " title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
-                <script type="text/javascript" async="" src="files/ga.js"></script><script src="files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="files/plusone.js" gapi_processed="true"></script><script type="text/javascript" src="files/widgets.js"></script>
-                </div>
-
-                <div class="socialButton facebook">
-                <iframe src="files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowtransparency="true"></iframe>
-                </div>
-
+    <link rel="stylesheet" href="your-css-here.css" media="all">
+    <script src="your-js-here.js"></script>
+</head>
+<body class="aui-page-fixed" id="aui-flatpack">
+<div id="page">
+    <header id="header">
+        <nav class="aui-header aui-dropdown2-trigger-group">
+            <div class="aui-header-inner aui-header-primary">
+                <h1 class="aui-header-logo aui-header-logo-aui" id="logo"><a href="../index.html"><span></span></a></h1>
+                <ul class="aui-nav">
+                    <li><a href="../docs/index.html">Home</a></li>
+                    <li><a href="../sandbox/index.html">Destinations</a></li>
+                    <li><a href="../sandbox/index.html">Bookings</a></li>
+                </ul>
             </div>
-            
-         </div>
-     </div>
-</div>                                      
+            <!-- .aui-header-inner-->
+        </nav>
+        <!-- .aui-header -->
+    </header>
+    <!-- #header -->
 
-<div class="wrapper hero phone-landing">
-     <div class="hero-overflow">        
-        <div class="container">
-           <div class="hero-main">
+    <section id="content">
+        <header class="aui-page-header">
+            <div class="aui-page-header-inner">
+                <div class="aui-page-header-main">
+                    <img src="files/teams-in-space-Final.png">
+                </div>
+                <!-- .aui-page-header-main -->
+            </div>
+            <!-- .aui-page-header-inner -->
+        </header>
+        <!-- .aui-page-header -->
 
-                    <img src="files/main-heading-small.png" class="visible-phone" alt="Atlassian Presents IRKD, Fix What Irks You.">                                                                                                                                           
-                    <img src="files/main-heading-large.png" class="hidden-phone" alt="Atlassian Presents IRKD, Fix What Irks You.">                    
-                        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <section class="aui-page-panel-content">
+                    <!-- <img src="saturnmoon.jpg" width="800px"> -->
 
-            </div>                      
+                    <h1>Summer Getaway Special: Saturn Summer Sizzle</h1>
+
+                    <p>
+                        Ever dreamt of seeing Saturn? Now, you and your team can experience all the magic of our sixth
+                        and sexiest planet.</p>
+
+                    <p>
+                        For a limited time only, Teams in Space is offering discounted group rates to teams of eight or
+                        more. Groups will receive a 20% discount as part of our Summer Saturn Sizzle.
+                    </p>
+
+                    <p>
+                        Take advantage of this once-in-a-century offer and check out all the features that ‘Planet with
+                        the rings’ has to offer. Book a five day stay at either the famous Red Titan Hotel or the newly
+                        opened Saturn’s Rings Resort.
+                    </p>
+
+                    <p>
+                        Overwhelmed by the large-crowds on Jupiter? See what our solar system’s second biggest planet
+                        has to offer. Avoid the typical tourist route and enjoy guided moon tours from our local partner
+                        Phobos and Deimos Tours. Skate the ice rings or surf the asteroid belt. Treat your team to a
+                        dinner one of the ten four-star restaurants located on Saturn’s famous Outer Ring. 95x the solar
+                        mass means 95x the fun.</p>
+
+                    <p>
+                        Book your flights and hotel at the same time to receive a 20% discount. You will undoubtably
+                        leave with a new perspective on Earth – literally!
+                    </p>
+
+                    <div class="aui-group">
+                        <button class="aui-button aui-button-primary">Book now</button>
+                    </div>
+
+                </section>
+                <!-- .aui-page-panel-content -->
+            </div>
+            <!-- .aui-page-panel-inner -->
         </div>
-    </div>  
+        <!-- .aui-page-panel -->
+    </section>
+    <!-- #content -->
+
+    <footer id="footer">
+        <section class="footer-body">
+            <ul id="aui-footer-list">
+                <li>Copyright &copy; 2009-2013 Atlassian</li>
+                <li><a href="https://developer.atlassian.com/display/AUI/License">Apache License v2.0</a></li>
+                <li><a href="https://developer.atlassian.com/display/AUI/AUI+Release+Notes">Release Notes</a></li>
+            </ul>
+            <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+        </section>
+    </footer>
+    <!-- #footer -->
 </div>
-  
-<div class="container">
-    <div class="main-video phone-landing">
-        <div class="vid-container">
-                <a class="videoLink hidden-phone" href="http://www.atlassian.com/irkd#"><img alt="IRKD Video" src="files/video-hero.png">
-                    <!-- <span class="playButton videoLink"></span> -->
-                </a>
-                                                           
-
-        </div>
-    </div>
-
-    <div class="intro phone-landing">
-            <p><span class="first-letter">Y</span>ou use <strong>JIRA</strong> to track defects in your software. Now use <strong>IRKD</strong> to track defects in your everyday life.</p>
-            <p>IRKD is a smartphone app that lets you "tag" anything that riles you up, chaps your hide, gets your goat, or puts your knickers in a twist. Assign your irk to whomever's responsible and finally <em>get that shit sorted out</em>.<sup>TM</sup>                                                             </p>
-    </div>
-     
-
-    <div class="visible-phone phone-landing phone-only-page" style="margin-bottom: 40px">
-        <div class="row">
-            <div class="span6">
-                <img class="action-btn log-irks-button" data-page-name="log-irks" src="files/irk-button.png">
-            </div>
-                                                                
-            <div class="span6" style="float:right">
-                <img class="action-btn view-irks-button" data-page-name="view-irks" src="files/recent-irks-button.png">
-            </div>
-        </div>
-    </div>                                  
-    
-
-            
-    <div class="visible-phone log-irks phone-only-page bordered-box" style="display:none">
-        <h2>Log Your Irks!</h2>
-        
-
-        
-        <!-- START ATLASSIAN FORM -->
-        <form id="issueForm-iphone" class="aui form-horizontal" action="http://issues.irkd.me/rest/collectors/1.0/template/custom/71e10f07" method="POST">
-            <fieldset class="hidden parameters">
-                <input type="hidden" title="projectKey" value="IRKD">
-                <input type="hidden" title="issueType" value="13">
-                <input type="hidden" title="customTemplate" value="true">
-                <input type="hidden" title="customLabels" value="">
-                <input type="hidden" title="fields" value="[&quot;assignee&quot;,&quot;summary&quot;,&quot;priority&quot;,&quot;duedate&quot;,&quot;description&quot;]">
-            </fieldset>
-            <input type="hidden" name="atl_token" value="BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout">
-            <input type="hidden" name="pid" value="10000">
-
-            <div class="control-group">
-                <label for="issue-type-values" class="control-label">Issue Type</label>
-                <div class="controls">
-                    <select id="issue-type-values">
-                        <option data-action-value="8045f7eb">Kitchin Bitchin</option>
-                        <option data-action-value="71e10f07">External Systems</option>
-                        <option data-action-value="f48e66b0">Health &amp; Safety</option>
-                        <option data-action-value="90c81c8f">Public Beautification</option>
-                        <option data-action-value="61ea6aeb">Sanitation</option>
-                    </select>    
-                </div>
-            </div>                   
-
-            <div class="control-group">
-                <label for="assignee" class="control-label">Assignee</label>
-                <div class="controls">
-                    <select id="assignee-field" name="assignee">
-                            <option value="god" selected="selected">God</option>
-                            <option value="bgates">Bill Gates</option>
-                            <option value="lellison">Larry Ellison</option>
-                            <option value="jsimons">Jay Simons</option>
-                            <option value="mike">Mike</option>
-                            <option value="mstewart">Martha Stewart</option>
-                            <option value="oprah">Oprah</option>
-                            <option value="scott">Scott</option>
-                            <option value="that guy">That Guy</option>                                                                                                                                                                                                                                                            
-                            <option value="your brother">Your Brother</option>                                                                                                                                                                                                                                                            
-                            <option value="your dad">Your Dad</option>                                                                                                                                                                                                                                                            
-                            <option value="you mom">Your Mom</option>                                                                                                                                                                                                                                                                                                                                                                        
-                            <option value="your wife">Your Wife</option>
-                            <option value="zuck">Mark Zuckerberg</option>
-                    </select>    
-                </div>
-            </div>
-
-            <fieldset class="hidden parameters">
-                <input type="hidden" title="projectKeys" value="IRKD">
-            </fieldset>
-
-            <div class="control-group">
-                <label class="control-label" for="summary">Summary</label>
-                <div class="controls">
-                    <input type="text" id="summary" maxlength="255" name="summary">
-                            <div class="errorText" style="display:none; color:#f53939">Please describe your irk!</div>                    
-                </div>
-            </div>
-
-            <div class="control-group">
-                <label for="priority" class="control-label">Priority</label>
-                <div class="controls">
-                    <select id="priority" name="priority">
-                        <option class="imagebacked" value="1">
-                            Blocker
-                        </option>
-                        <option class="imagebacked" value="2">
-                            Critical
-                        </option>
-                        <option class="imagebacked" selected="selected" value="3">
-                            Major
-                        </option>
-                        <option class="imagebacked" value="4">
-                            Minor
-                        </option>
-                        <option class="imagebacked" value="5">
-                            Trivial
-                        </option>
-                    </select>    
-                </div>
-            </div>
-
-
-
-
-            <fieldset class="hidden parameters">
-                <input type="hidden" id="collectorId" title="collectorId" value="8045f7eb">
-                <input type="hidden" name="pid" value="10000">
-                <input type="hidden" name="atl_token" value="BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout">
-                <div id="attach-max-size" class="hidden">10485760</div>
-                <input type="file" class="hidden" name="_tricky_" multiple="">
-            </fieldset>
-
-        <span style="display:block; text-align: center; cursor: pointer" id="buttonSubmitIphone" href="#"><img src="files/log-irk-button.png"></span>
-        </form>                    
-        <!-- END OF ATLASSIAN FORM -->    
-        <div class="thanks-submission" style="display:none; margin-top: 20px">
-            <h4>Thanks for submitting your IRK.</h4>
-                    <p>Submit another or <a href="http://issues.irkd.me/secure/Dashboard.jspa">track your issue in JIRA</a>.</p>   
-        </div> 
-        
-        
-        </div>
-    <div class="visible-phone view-irks phone-only-page bordered-box" style="display:none">
-        <h2>Recently Logged Irks</h2>
-
-
-              <!-- answersListParagraph -->
-              <!-- rss goes here -->
-
-              <ul class="rss-feed">
-
-                          <li><h4>IRKD-27 </h4><a href="http://issues.irkd.me/browse/IRKD-27">Oprah
-
-                            </a></li><li><h4>IRKD-28 </h4><a href="http://issues.irkd.me/browse/IRKD-28">Confusing Colored Trash Bins
-
-                            </a></li><li><h4>IRKD-29 </h4><a href="http://issues.irkd.me/browse/IRKD-29">Gum
-
-                            </a></li><li><h4>IRKD-31 </h4><a href="http://issues.irkd.me/browse/IRKD-31">Power Ballads
-
-                            </a></li><li><h4>IRKD-12 </h4><a href="http://issues.irkd.me/browse/IRKD-12">The Black Eyed Peas
-
-                            </a></li><li><h4>IRKD-544 </h4><a href="http://issues.irkd.me/browse/IRKD-544">Test
-  
-              </a></li><li><h4>IRKD-545 </h4><a href="http://issues.irkd.me/browse/IRKD-545">facebook
-  
-              </a></li><li><h4>IRKD-546 </h4><a href="http://issues.irkd.me/browse/IRKD-546">Clean up FB
-  
-              </a></li><li><h4>IRKD-user"&gt;Bill Gates' on       <a href="http://issues.irkd.me/browse/IRKD%3C/h4%3E%3Ca%20href=" http:="" issues.irkd.me="" browse="" irkd-user"="">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD">18"&gt;IRKD</a></h4></li><li><h4>IRKD-user"&gt;Bill Gates' on       <a href="http://issues.irkd.me/browse/IRKD%3C/h4%3E%3Ca%20href=" http:="" issues.irkd.me="" browse="" irkd-user"="">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD">27"&gt;IRKD</a></h4></li></ul>
-        
-        <a class="link-jira" href="http://issues.irkd.me/secure/Dashboard.jspa"><img class="" src="files/view-all-irks-button.png"></a>
-    </div>    
-    <div class="row bordered-box hidden-phone">
-        <div class="span6">
-            <h2>Log Your Irks!</h2>
-            <p>Don't be passive aggressive – be IRKD! Log your irks here and they'll enter the IRKD database, where IRKS go to get tracked and worked out!</p> 
-
-            <div class="form-wrap">
-
-                <!-- START ATLASSIAN FORM -->
-                <form id="issueForm" class="aui form-horizontal" action="http://issues.irkd.me/rest/collectors/1.0/template/custom/71e10f07" method="POST">
-                    <fieldset class="hidden parameters">
-                        <input type="hidden" title="projectKey" value="IRKD">
-                        <input type="hidden" title="issueType" value="13">
-                        <input type="hidden" title="customTemplate" value="true">
-                        <input type="hidden" title="customLabels" value="">
-                        <input type="hidden" title="fields" value="[&quot;assignee&quot;,&quot;summary&quot;,&quot;priority&quot;,&quot;duedate&quot;,&quot;description&quot;]">
-                    </fieldset>
-                    <input type="hidden" name="atl_token" value="BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout">
-                    <input type="hidden" name="pid" value="10000">
-
-                    <div class="control-group">
-                        <label for="issue-type-values" class="control-label">Issue Type</label>
-                        <div class="controls">
-                            <select id="issue-type-values">
-                                <option data-action-value="8045f7eb">Kitchin Bitchin</option>
-                                <option data-action-value="71e10f07">External Systems</option>
-                                <option data-action-value="f48e66b0">Health &amp; Safety</option>
-                                <option data-action-value="90c81c8f">Public Beautification</option>
-                                <option data-action-value="61ea6aeb">Sanitation</option>
-                            </select>    
-                        </div>
-                    </div>                   
-
-
-                    <div class="control-group">
-                        <label for="assignee" class="control-label">Assignee</label>
-                        <div class="controls">
-                            <select id="assignee-field" name="assignee">
-                                    <option value="god" selected="selected">God</option>
-                                    <option value="bgates">Bill Gates</option>
-                                    <option value="lellison">Larry Ellison</option>
-                                    <option value="jsimons">Jay Simons</option>
-                                    <option value="mike">Mike</option>
-                                    <option value="mstewart">Martha Stewart</option>
-                                    <option value="oprah">Oprah</option>
-                                    <option value="scott">Scott</option>
-                                    <option value="that guy">That Guy</option>                                                                                                                                                                                                                                                            
-                                    <option value="your brother">Your Brother</option>                                                                                                                                                                                                                                                            
-                                    <option value="your dad">Your Dad</option>                                                                                                                                                                                                                                                            
-                                    <option value="you mom">Your Mom</option>                                                                                                                                                                                                                                                                                                                                                                        
-                                    <option value="your wife">Your Wife</option>
-                                    <option value="zuck">Mark Zuckerberg</option>                                                                                                                                                                                                                                                                                                                                                                                                                                                
-                            </select>    
-                        </div>
-                    </div>
-
-                    <fieldset class="hidden parameters">
-                        <input type="hidden" title="projectKeys" value="IRKD">
-                    </fieldset>
-
-                    <div class="control-group">
-                        <label class="control-label" for="summary">Summary</label>
-                        <div class="controls">
-                            <input type="text" id="summary" maxlength="255" name="summary" value="">
-                            <div class="errorText" style="display:none; color:#f53939">Please describe your irk!</div>
-                        </div>
-                    </div>
-
-                    <div class="control-group">
-                        <label for="priority" class="control-label">Priority</label>
-                        <div class="controls">
-                            <select id="priority" name="priority">
-                                <option class="imagebacked" value="1">
-                                    Blocker
-                                </option>
-                                <option class="imagebacked" value="2">
-                                    Critical
-                                </option>
-                                <option class="imagebacked" selected="selected" value="3">
-                                    Major
-                                </option>
-                                <option class="imagebacked" value="4">
-                                    Minor
-                                </option>
-                                <option class="imagebacked" value="5">
-                                    Trivial
-                                </option>
-                            </select>    
-                        </div>
-                    </div>
-
-                    <!-- <div class="control-group">
-                        <label class="control-label" for="description">Description</label>
-                        <div class="controls">
-                            <textarea rows="3" id="description" name="description" rows="12" wrap="virtual"></textarea>
-                        </div>
-                    </div>    --> 
-
-
-                    <fieldset class="hidden parameters">
-                        <input type="hidden" id="collectorId" title="collectorId" value="8045f7eb">
-                        <input type="hidden" name="pid" value="10000">
-                        <input type="hidden" name="atl_token" value="BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout">
-                        <div id="attach-max-size" class="hidden">10485760</div>
-                        <input type="file" class="hidden" name="_tricky_" multiple="">
-                    </fieldset>
-                
-
-
-
-                    <!-- <input type="submit" value="Submit">     -->
-                <span style="display:block; text-align: center; cursor:pointer;" id="buttonSubmit" href="#"><img src="files/log-irk-button.png"></span>
-                
-                
-                <div class="thanks-submission" style="display:none; margin-top: 10px">
-                    <h4>Thanks for submitting your IRK!</h4>
-                    <p>Submit another or <a href="http://issues.irkd.me/secure/Dashboard.jspa">track your issue in JIRA</a>.</p>
-                </div>
-                
-                </form>               
-                
-                
-                <!-- END OF ATLASSIAN FORM -->
-                
-                <!-- <img src="http://wac.29c4.edgecastcdn.net/8029C4/wac-small//dms/wac/images/landing/irkd/temp-form.png" style="padding-bottom: 20px"/> -->
-
-            </div>
-            
-            <!-- <div class="thankyou">
-                <p>Thank you for submitting your IRK!.</p>
-                <a href="#" id="submit">Submit another.</a>
-            </div>                     -->
-            
-            <div class="quote">
-                <p>"IRKD Premier makes all your assignees accountable by emitting a literal feedback loop that they won't be able to ignore."</p>      
-                <div class="by-line">                        
-                    <img src="files/quote-guy.png" style="float:left">
-                    <div class="info">
-                        <span class="author">Richard S. Pokesman</span>
-                        <span class="title">IRKD Spokesman</span>
-                    </div>
-
-                </div>
-
-            </div>
-            
-        </div>
-        <div class="span6">
-            <h2>Recently Logged Irks</h2>
-            <p>You're not alone in your IRKs. Click to read the full details, commiserate with your fellow IRKD, and maybe even help resolve a few IRKs yourself.</p>
-              
-                    <ul class="raw-rss-feed" style="position:absolute; visibility: hidden;">                    
-                        
-
-              <li class="rss">
-              <a href="http://issues.irkd.me/secure/ViewProfile.jspa?name=irkd" class="activity-item-user activity-item-author">IRKD Me</a>        <a href="http://issues.irkd.me/browse/IRKD-544">IRKD-544 - Test</a>
-  
-              </li>
-              <li class="rss">
-              <a href="http://issues.irkd.me/secure/ViewProfile.jspa?name=irkd" class="activity-item-user activity-item-author">IRKD Me</a>        <a href="http://issues.irkd.me/browse/IRKD-545">IRKD-545 - facebook</a>
-  
-              </li>
-              <li class="rss">
-              <a href="http://issues.irkd.me/secure/ViewProfile.jspa?name=irkd" class="activity-item-user activity-item-author">IRKD Me</a>        <a href="http://issues.irkd.me/browse/IRKD-546">IRKD-546 - Clean up FB</a>
-  
-              </li>
-              <li class="rss">
-              <span class="activity-item-user activity-item-author">Anonymous User</span> changed the Assignee to '<a href="http://issues.irkd.me/secure/ViewProfile.jspa?name=bgates" class="activity-item-user">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD-18">IRKD-18 - Leaving Food in the Sink</a>
-  
-              </li>
-              <li class="rss">
-              <span class="activity-item-user activity-item-author">Anonymous User</span> changed the Assignee to '<a href="http://issues.irkd.me/secure/ViewProfile.jspa?name=bgates" class="activity-item-user">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD-27">IRKD-27 - Oprah</a>
-  
-              </li>
-                    </ul>
-              
-
-
-
-            
-            <!-- answersListParagraph -->
-            <!-- rss goes here -->
-            
-                        <ul class="rss-feed">
-
-                            <li><h4>IRKD-27 </h4><a href="http://issues.irkd.me/browse/IRKD-27">Oprah
-
-                              </a></li><li><h4>IRKD-28 </h4><a href="http://issues.irkd.me/browse/IRKD-28">Confusing Colored Trash Bins
-
-                              </a></li><li><h4>IRKD-29 </h4><a href="http://issues.irkd.me/browse/IRKD-29">Gum
-
-                              </a></li><li><h4>IRKD-31 </h4><a href="http://issues.irkd.me/browse/IRKD-31">Power Ballads
-
-                              </a></li><li><h4>IRKD-12 </h4><a href="http://issues.irkd.me/browse/IRKD-12">The Black Eyed Peas
-
-                              </a></li>
-                          <li><h4>IRKD-544 </h4><a href="http://issues.irkd.me/browse/IRKD-544">Test
-  
-              </a></li><li><h4>IRKD-545 </h4><a href="http://issues.irkd.me/browse/IRKD-545">facebook
-  
-              </a></li><li><h4>IRKD-546 </h4><a href="http://issues.irkd.me/browse/IRKD-546">Clean up FB
-  
-              </a></li><li><h4>IRKD-user"&gt;Bill Gates' on       <a href="http://issues.irkd.me/browse/IRKD%3C/h4%3E%3Ca%20href=" http:="" issues.irkd.me="" browse="" irkd-user"="">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD">18"&gt;IRKD</a></h4></li><li><h4>IRKD-user"&gt;Bill Gates' on       <a href="http://issues.irkd.me/browse/IRKD%3C/h4%3E%3Ca%20href=" http:="" issues.irkd.me="" browse="" irkd-user"="">Bill Gates</a>' on       <a href="http://issues.irkd.me/browse/IRKD">27"&gt;IRKD</a></h4></li></ul>
-            
-            <a style="display:block; text-align: center" href="http://issues.irkd.me/secure/Dashboard.jspa"><img src="files/view-all-irks-button-large.png"></a>                                                          
-            
-
-
-        </div>
-    </div>
-
-
-</div> <!-- /container -->
-        
-<footer>
-    <div class="footer-share-box">
-        <h3>IRK YOUR FRIENDS</h3>
-        <div class="socialButtonWrapper">
-
-        <div class="socialButton googlePlus">
-        <div style="height: 20px; width: 90px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; " id="___plusone_0"><iframe allowtransparency="true" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px; " tabindex="0" vspace="0" width="100%" id="I0_1353004998360" name="I0_1353004998360" src="files/fastbutton.html" title="+1"></iframe></div>
-
-        <!-- Place this render call where appropriate -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
-        </div>
-
-        <div class="socialButton twitter">
-        <iframe allowtransparency="true" frameborder="0" scrolling="no" src="files/tweet_button.1352365724(1).html" class="twitter-share-button twitter-count-horizontal" style="width: 107px; height: 20px; " title="Twitter Tweet Button" data-twttr-rendered="true"></iframe>
-        <script type="text/javascript" src="files/widgets.js"></script>
-        </div>
-
-        <div class="socialButton facebook">
-        <iframe src="files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowtransparency="true"></iframe>
-        </div>
-
-        </div>
-        
-    </div>
-</footer>
-
-<script src="files/jquery.min.js"></script>
-<script src="files/jquery-history.js"></script> 
-<script type="text/javascript" src="files/wja5xmm.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-<script type="text/javascript" charset="utf-8">
-    $(function(){
-        
-        History.pushState({divToShow : 'phone-landing'}, null, null);
-        
-        $('.videoLink').click(function(e){
-            e.preventDefault();             
-            $('.vid-container').css('background', '#000');
-            $('.vid-container').html('<iframe width="770" height="441" src="http://www.youtube.com/embed/JqDJmUMKETs?rel=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>');
-        });
-         
-        $('.action-btn').click(function(){
-
-            var buttonClicked = $(this).data('page-name');
-            History.pushState({divToShow : buttonClicked}, null, null);
-
-        });                                                                          
-               
-        function showPhonePage(divToShow){
-            $('.phone-landing').hide();
-            $('.phone-only-page').hide();
-            $('.' + divToShow).show();
-        }        
-           
-        History.Adapter.bind(window,'statechange',function(){ 
-            var State = History.getState();
-            var divToShow = State.data.divToShow;
-            showPhonePage(divToShow);
-        });
-
-        $('#issue-type-values').change(function(){
-            var actionId = $(this).find('option:selected').data('action-value');
-            $('#issueForm').attr('action', 'http://issues.irkd.me/rest/collectors/1.0/template/custom/' + actionId);
-            $('#issueForm-iphone').attr('action', 'http://issues.irkd.me/rest/collectors/1.0/template/custom/' + actionId);            
-
-            
-            $('#collectorId').attr('value', actionId);
-        }); 
-        
-        
-       $('#issueForm').submit(function(e){
-           
-           e.preventDefault();
-             var assigneeField = $('#issueForm #assignee-field').find('option:selected').attr('value');
-           var priorityField = $('#issueForm #priority').find('option:selected').attr('value');
-           var summaryField = $('#issueForm #summary').attr('value');
-           var urlForm = $('#issueForm').attr('action');               
-           if ("" !== summaryField) {
-               $.post(urlForm,
-                   { 
-                       "_tricky_" : "",  
-                       "assignee" : assigneeField,
-                       "atl_token" :   "BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout",
-                       "atl_token"  :"BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout",
-                       "pid" :   "10000",
-                       "pid"  :  "10000",
-                       "priority" :  priorityField,
-                       "summary"  :  summaryField                                    
-
-                   }, 
-                                  function(data) {
-                                      console.log(data);
-                                  }
-                                  
-                              );
-                              
-            // $(this).hide();
-            $('.thanks-submission').fadeOut('fast');
-            $('.thanks-submission').fadeIn('fast');
-
-           } else {
-               $('#issueForm').find(".errorText").show();
-               
-           }
-           
-       });
-        
-        $('#buttonSubmit').click(function(e){
-            e.preventDefault();
-            $('#issueForm').submit();
-       
-
-               });
-               
-               // $('#buttonSubmit').click(function(e){
-               //     var summaryField = $('#issueForm #summary').attr('value');
-               //     
-               //     if ("" !== summaryField) {
-               //     setTimeout(function(){
-               //         window.location = "http://issues.irkd.me/secure/Dashboard.jspa", 1000
-               //     });
-               //     } else {
-               //         $('#issueForm').find(".errorText").show();
-               //     }
-               // });
-               
-               $('#buttonSubmitIphone').click(function(e){
-
-                   e.preventDefault();            
-                   var assigneeField = $('#issueForm-iphone #assignee-field').find('option:selected').attr('value');
-                   var priorityField = $('#issueForm-iphone #priority').find('option:selected').attr('value');
-                   var summaryField = $('#issueForm-iphone #summary').attr('value');
-                   var urlForm = $('#issueForm-iphone').attr('action');               
-                   
-                   if ("" !== summaryField) {
-                       $.post(urlForm,
-                           { 
-                               "_tricky_" : "",  
-                               "assignee" : assigneeField,
-                               "atl_token" :   "BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout",
-                               "atl_token"  :"BYX4-MOXI-UQI6-NT1H|273bdc1f7082f770529ce43f2255c5c0d8f3a04d|lout",
-                               "pid" :   "10000",
-                               "pid"  :  "10000",
-                               "priority" :  priorityField,
-                               "summary"  :  summaryField                                    
-
-                           }, 
-                           function(data) {
-                              
-                           });
-                          // $(this).hide();                     
-                          $('.thanks-submission').fadeOut('fast');
-                          $('.thanks-submission').fadeIn('fast');
-
-
-                   } else {
-                       $('#issueForm-iphone').find(".errorText").show();
-                       
-                   }
-
-
-                      });
-               
-                          $('#issueForm #summary').focus(function(){
-                              $(this).attr('value', '');
-                          });
-                          $('#issueForm-iphone #summary').focus(function(){
-                              $(this).attr('value', '');
-                          });
-       
-               $('.raw-rss-feed li').each(function(){
-                   var theHtml = $(this).html();
-                   theHtml = theHtml.replace('created', '');
-                   // console.log(theHtml);       
-                   $(this).html(theHtml);
-                   
-                   theHtml = theHtml.split('-');
-
-                   var ticketNum = theHtml[6];
-                   var summary = theHtml[7].replace('</a>', '').replace(' ','');
-                   var ticketTitle = "IRKD-" + ticketNum;                   
-                   var ticketUrl = "http://issues.irkd.me/browse/" + ticketTitle;                   
-
-                   $('.rss-feed').append('<li><h4>' +ticketTitle+ '</h4><a href="'+ ticketUrl +'">'+summary+'</a></li>');
-
-               });
-        
-        
-    });
-</script>
-<script type="text/javascript">
-
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-20272869-10']);
- _gaq.push(['_setDomainName', 'irkd.me']);
- _gaq.push(['_trackPageview']);
-
- (function() {
-   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
-
-</script>
-
-<div id="window-resizer-tooltip"><a href="http://www.atlassian.com/irkd#" title="Edit settings" style="background-image: url(chrome-extension://kkelicaakdanhinjdeammmilcgefonfh/images/icon_19.png); "></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth"></span> x <span class="tooltipHeight" id="winHeight"></span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth"></span> x <span class="tooltipHeight" id="vpHeight"></span></div></body></html>
+<!-- #page -->
+</body>
+</html>
