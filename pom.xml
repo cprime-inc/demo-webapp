@@ -4,7 +4,7 @@
   <artifactId>teamsinspace</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>Atlassian IRKD</name>
+  <name>Teams In Space</name>
   
      <dependencies>
         <dependency>
